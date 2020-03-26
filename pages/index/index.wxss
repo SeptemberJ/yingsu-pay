@@ -1,0 +1,38 @@
+/**index.wxss**/
+page{
+  background: #F7F7F7;
+}
+.container{
+  padding: 10rpx 25rpx;
+}
+.orderNo{
+  padding: 30rpx 25rpx;
+}
+.price{
+  padding: 30rpx 25rpx 0 25rpx;
+  font-size: 66rpx;
+  font-weight: bold;
+}
+.plantBar{
+  width: calc(100% - 40rpx);
+  height: 45px;
+  padding: 0 20rpx;
+  background: #ffffff;
+  font-size: 32rpx;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  margin: 20px 0;
+}
+.btPay{
+  width: 98%;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  background: #07c160;
+  color: #ffffff;
+  border-radius: 4px;
+}

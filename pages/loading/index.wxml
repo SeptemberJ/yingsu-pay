@@ -1,0 +1,7 @@
+<!--pages/loading/index.wxml-->
+<view class="container">
+  <view class='Logo'>
+    <image src='../../images/logo.png'></image>
+  </view>
+  <text>中运卡行</text>
+</view>

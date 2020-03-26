@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='TopBar'>
+    <image wx:if="{{status == 0}}" src='../../images/success.png'></image>
+    <image wx:if="{{status == -1}}" src='../../images/error.png'></image>
+    <text wx:if="{{status == 0}}">支付成功</text>
+    <text wx:if="{{status == -1}}">支付失败</text>
+  </view>
+  <view wx:if="{{status == 0}}" class="OrderInfo">
+    <view class="Item">
+      <text>商家</text>
+      <text>中运卡行</text>
+    </view>
+    <view class="Item">
+      <text>订单编号</text>
+      <text>1234567890</text>
+    </view>
+    <view class="Item">
+      <text>支付金额</text>
+      <text>¥100.00</text>
+    </view>
+  </view>
+  <button class="backBt" open-type="launchApp" app-parameter="{{parameter}}" binderror="launchAppError">返回APP</button>
+</view>

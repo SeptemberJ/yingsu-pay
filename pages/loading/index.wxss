@@ -1,0 +1,12 @@
+/* pages/loading/index.wxss */
+.Logo{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Logo image{
+  width: 141rpx;
+  height: 91rpx;
+}

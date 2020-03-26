@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <text class="orderNo">中运卡行-订单编号111003900876</text>
+  <text class="price">￥1000.00</text>
+  <view class="plantBar">
+    <text>收款方</text>
+    <text>中运卡行平台商户</text>
+  </view>
+  <view class="btPay" bindtap="weChatPayTest">立即支付</view>
+  <text>{{ param }}</text>
+</view>
